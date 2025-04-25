@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <p>Nothing to see here...</p>
+  <!-- Project -->
+  <script src="main.js"></script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Guess the Secret Word</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 20px;
+    }
+    #message {
+      margin-top: 20px;
+      font-size: 1.2em;
+      font-weight: bold;
+    }
+    input, button {
+      padding: 10px;
+      font-size: 1em;
+      margin: 5px;
+    }
+    .win {
+      background-color: #90ee90;
+    }
+    .lose {
+      background-color: #ffcccb;
+    }
+  </style>
+</head>
+<body>
+  <h1>Guess the Secret Word</h1>
+  <p>Complete Name: GEORGE VILLAREAL</p>
+  <p>Course, Year, Section: BSIT 2B</p>
+  <p>Subject: PF2 EVENT DRIVEN PROGRAMMING</p>
+
+  <input type="text" id="guessInput" placeholder="Enter your guess">
+  <button onclick="submitGuess()">Submit</button>
+  <button onclick="restartGame()">Restart</button>
+
+  <div id="message"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
